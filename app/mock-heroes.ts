@@ -1,7 +1,5 @@
 import {Hero} from './hero.service';
 
-var firebaseRef = new Firebase("https://heroesoffirebase.firebaseio.com/");
-
 export var HEROES: Hero[] = [
   { "id": 11, "name": "Mr. Nice" },
   { "id": 12, "name": "Narco" },
